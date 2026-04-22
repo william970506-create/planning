@@ -275,6 +275,8 @@
         options.userName = "william";
         options.password = "William970506";
         options.useSSL = true;
+        options.keepAliveInterval = 30;
+        options.reconnect = true;
         client.connect(options);
 
         // 發送文字訊息
