@@ -229,7 +229,7 @@
         const MQTT_PORT = 8884; // WebSocket SSL port
         const MQTT_CLIENT_ID = "web_ctrl_" + Math.random().toString(16).substr(2, 5);
         const TOPIC_CMD = "flagbot/cmd";
-        const TOPIC_TEXT = "screen/text"; // 新增：專門用來傳文字的主題
+        const TOPIC_TEXT = "screen/text";
         const TOPIC_STATUS = "flagbot/status";
 
         let isConnected = false; // 追蹤連線狀態
