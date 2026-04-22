@@ -315,7 +315,7 @@
             const msg = new Paho.MQTT.Message("clear");
             msg.destinationName = TOPIC_CMD;
             client.send(msg);
-            showToast("指令已發送");
+            showToast("指令已發送")
         };
     </script>
 </body>
